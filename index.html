@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Synot Multimedia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section Start -->
+    <header>
+      <div class="logo">
+        <img src="./images/logo.png" alt="">
+      </div>
+      <ul id="menu">
+        <li><a href="#">Home Page</a></li>
+        <li><a href="#">About Synot Media</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Solution</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="header-btns">
+        <button>EN &nbsp; <img src="./images/language-1.png" alt=""></button>
+        <button>VN &nbsp;<img src="./images/language-2.png" alt=""></button>
+      </div>
+      <div class="menu-bar">
+        <img onclick="myFunction()" src="./images/Menu.svg" alt="">
+      </div>
+    </header>
+  <!-- Header Section End -->
+  
+  <!-- Home Section Start -->
+      <section class="home">
+        <div class="home-text">
+          <h2>We give you <br>
+            Communication solutions <br>
+            overview
+          </h2>
+          <p>Lorem ipsum pain sit amet, consectetuer <br> adipiscing elite, sed diam nonummy nibh euismod <br> tincidunt ut laoreet pain magna aliquam erat <br> volutpat. Outside the wise
+          </p>
+          <div class="home-btns">
+            <button>Consult now</button>
+            <button>Download <br>
+              Profile  <img src="./images/downarrow.png" alt=""></button>
+          </div>
+        </div>
+        <div class="home-img">
+          <img src="./images/home-img.png" alt="">
+        </div>
+      </section>
+  <!-- Home Section End -->
+
+  <script>
+    
+    function myFunction(){
+      let x = document.getElementById("menu");
+      
+      if (x.style.display == "block"){
+        x.style.display = "none";
+        console.log("hi");
+      }
+      else{
+        x.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>
