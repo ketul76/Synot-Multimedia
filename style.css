@@ -118,7 +118,113 @@ header ul li a{
   }
 /* Home Css End */
 
+/* Services Css Start */
+  .services{
+    padding: 0 100px;
+    margin-top: 120px;
+  }
+  .service-title{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding-bottom: 30px;
+  }
+  .line{
+    width: 83px;
+    height: 4px;
+    background: #FFBC3A;
+  }
+  .service-title h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFBC3A;
+  }
+  .services h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1F4262;
+    padding-bottom: 65px;
+  }
+  .our-services{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 120px;
+  }
+  .service{
+    padding-top: 60px;
+    width: 244px;
+    height: 269px;
+    background: #FFFFFF;
+    box-shadow: 8px 4px 51px rgba(0, 0, 0, 0.1);
+    border-radius: 13px;
+    text-align: center;
+  }
+  .service p{
+    padding-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #434343;
+  }
+/* Services Css End */
 
+/* About-Us Css Start */
+  .about{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    gap: 45px;
+  }
+  .main-img{
+    top: 35px;
+    left: 35px;
+    position: absolute;
+  }
+  .about-title{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding-bottom: 30px;
+  }
+  .about-text h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1F4262;
+    padding-bottom: 25px;
+  }
+  .about ul{
+    padding-left: 55px;
+    padding-bottom: 30px;
+  }
+  .about ul li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .about li::marker{
+    color: #007ADB;
+  }
+  .about button{
+    
+  }
+/* About-Us Css End */
 
 
 
@@ -161,11 +267,20 @@ header ul li a{
     flex-direction: column;
     align-items: center;
   }
+  .services{
+    padding: 0;
+  }
   .home-text{
     padding: 0;
   }
   .home-img{
     position: static;
+  }
+  .service-title{
+    justify-content: center;
+  }
+  .services h1{
+    text-align: center;
   }
 }
 
@@ -177,5 +292,8 @@ header ul li a{
   }
   .home-text h2{
     font-size: 32px;
+  }
+  .our-services{
+    gap: 25px;
   }
 }
