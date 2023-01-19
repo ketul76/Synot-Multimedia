@@ -106,6 +106,7 @@ header ul li a{
     line-height: 20px;
     border: 2px solid #EFEFEF;
     border-radius: 69px;
+    transition: 0.4s;
   }
   .home-btns button:hover{
     color: #FFBC3A;
@@ -184,6 +185,7 @@ header ul li a{
     height: 100%;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     gap: 45px;
   }
   .main-img{
@@ -218,16 +220,103 @@ header ul li a{
     line-height: 31px;
     color: rgba(0, 0, 0, 0.5);
   }
-  .about li::marker{
-    color: #007ADB;
-  }
   .about button{
-    
+    padding: 7px 32px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFBC3A;
+    background: linear-gradient(268.4deg, #0052DA -6.74%, #14AAFF 78.54%);
+    border-radius: 69px;
+    border: none;
+    transition: 0.4s;
   }
+  .about button:hover{
+    background: #000000;
+  }
+  .about li::marker{
+    color:  #007ADB;;
+  }
+  
 /* About-Us Css End */
 
-
-
+/* Solution Css Start */
+  .solution{
+    padding: 100px 0;
+  }
+  .solution-title{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+  }
+  .solution-title h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFBC3A;
+  }
+  .title-line{
+    width: 11px;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+  }
+  .solution-title-text{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 15px 0;
+  }
+  .solution-title-text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #1F4262;
+  }
+  .solution-text p{
+    padding-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 35px;
+  }
+  /* cards */
+  .solution-card{
+    width: 342px;
+    height: 481px;
+    background: #F1F1F1;
+    border-radius: 12px;
+    padding: 21px 20px 0 20px;
+  }
+  .solution-card h1{
+    padding-top: 21px;    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 31px;
+    color: #838383;
+  }
+  .solution-card p{
+    padding-top: 21px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;  
+    color: #838383;
+    padding-bottom: 50px;
+  }
+/* Solution Css End */
 
 
 
@@ -250,6 +339,10 @@ header ul li a{
     }
     .menu-bar{
       display: block;
+    }
+    .about{
+      justify-content: center;
+      padding: 15px;
     }
 }
 
@@ -295,5 +388,17 @@ header ul li a{
   }
   .our-services{
     gap: 25px;
+  }
+}
+
+@media screen and (max-width: 1163px) {
+  .main-img img{
+    width: 100%;
+  }
+  .curveimg{
+    display: none;
+  }
+  .main-img{
+    position: static;
   }
 }
