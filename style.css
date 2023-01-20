@@ -235,6 +235,7 @@ header ul li a{
   }
   .about button:hover{
     background: #000000;
+    cursor: pointer;
   }
   .about li::marker{
     color:  #007ADB;;
@@ -245,6 +246,10 @@ header ul li a{
 /* Solution Css Start */
   .solution{
     padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
   }
   .solution-title{
     display: flex;
@@ -290,6 +295,12 @@ header ul li a{
     padding-left: 35px;
   }
   /* cards */
+  .solution-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+  }
   .solution-card{
     width: 342px;
     height: 481px;
@@ -316,7 +327,367 @@ header ul li a{
     color: #838383;
     padding-bottom: 50px;
   }
+  .viewmore a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 31px;
+    color: #838383;
+    text-decoration: none;
+    padding-right: 2px;
+  }
 /* Solution Css End */
+
+/* partner Css Start */
+  .partners{
+    padding: 150px 0;
+    background: rgba(0, 66, 197, 0.06);
+  }
+  .partner-title{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    padding-left: 100px;
+  }
+  .partner-title h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFBC3A;
+  }
+  .partners p{
+    padding-left: 100px;
+    padding-top: 9px;
+    padding-bottom: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .our-partner{
+    width: 1109px;
+    height: 97px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+/* partner Css End */
+
+/* Project Css Start */
+.project{
+  padding: 100px 0;
+}
+  .project-title{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding-left: 100px;
+  }
+  .project-title h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFBC3A;
+  }
+  .project-p{
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1F4262;
+  }
+  .project-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+    justify-content: center;
+  }
+  .project-card{
+    width: 342px !important;
+    height: 451px;
+    background: #0042C5;
+    border-radius: 12px;
+    padding: 21px 20px 0 20px;
+  }
+  .project-card h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  .project-card p{
+    padding-bottom: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  .project-viewmore a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 31px;  
+    color: #FFFFFF;
+    padding-right: 5px;
+    text-decoration: none;
+  }
+  .swiper-wrapper{
+    justify-content: center;
+  }
+/* Project Css End */
+
+/* story Css Start */
+      .brand-story{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 100px;
+        padding: 100px 0;
+      }
+      .brand-img img{
+        width: 400px;
+        height: 400px;
+      }
+      .story-title{
+        display: flex;
+        align-items: center;
+        gap: 17px;
+        padding-bottom: 50px;
+      }
+      .story-title h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        color: #FFBC3A;
+      }
+      .story-text h1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 44px;
+        color: #1F4262;
+        padding-bottom: 25px;
+      }
+      .storyline{
+        width: 53px;
+        height: 4px;
+        background: #0042C5;
+      }
+      .story-name{
+        display: flex;
+        align-items: center;
+        gap: 17px;
+      }
+      .story-text h4{
+        padding-left: 68px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        color: #0042C5;
+        padding-bottom: 50px;
+      }
+      .story-text p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 31px;
+        color: rgba(0, 0, 0, 0.5);
+        padding-bottom: 15px;
+      }
+      .brand-story button{
+        padding: 7px 32px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        color: #FFBC3A;
+        background: linear-gradient(268.4deg, #0052DA -6.74%, #14AAFF 78.54%);
+        border-radius: 69px;
+        border: none;
+        transition: 0.4s;
+      }
+      .brand-story button:hover{
+        background: #000000;
+        cursor: pointer;
+      }
+/* story Css End */
+
+/* Connect Css Start */
+      .connect{
+        padding: 150px 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+      .connect-us{
+        width: 1076px;
+        height: 301px;
+        background: linear-gradient(268.4deg, #0052DA -6.74%, #14AAFF 78.54%);
+        border-radius: 31px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+        padding: 0 50px;
+      }
+      .connect-img{
+        position: absolute;
+        bottom: 27%;
+        right: 20%;
+      }
+      .connect-text h2{
+        padding: 50px 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+      }
+      .connect button{
+        padding: 23px 50px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        color: #0042C5;
+        background: #FFBC3A;
+        border-radius: 69px;
+        border: none;
+      }
+      .connect button:hover{
+        background-color: #000000;
+        cursor: pointer;
+        color: #FFFFFF;
+      }
+/* Connect Css End */
+
+/* Footer Css Start */
+      footer{
+        padding: 100px 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 205px;
+      }
+      .square{
+        width: 21px;
+        height: 22px;
+        background: #2E5DAB;
+        border-radius: 2px;
+      }
+      .round{
+        width: 21px;
+        height: 22px;
+        background: #2E5DAB;
+        border-radius: 24px;
+      }
+      .footer-icons{
+        display: flex;
+        gap: 33px;
+        padding-top: 30px;
+      }
+      .footer-info p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 31px;
+        color: rgba(0, 0, 0, 0.5);
+        padding-top: 56px;
+      }
+      .footer-links{
+        padding-top: 20px;
+      }
+      .footer-links h1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 31px;
+        color: #1F4262;
+        padding-bottom: 16px;
+      }
+      .footer-links p{
+        padding-bottom: 7px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 31px;
+        color: #1F4262;
+        text-align: end;
+      }
+      .lists{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+      }
+
+/* Footer Css End */
+
+/* copyright css Start */
+    .copyright{
+      background: #0042C5;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 30px 50px;
+      align-items: center;
+    }
+    .footer-nav ul{
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      gap: 20px;
+    }
+    .copyright p ,a{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+/* copyright css End */
+
+
+
+
+
 
 
 
@@ -347,9 +718,15 @@ header ul li a{
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .header-btns{
     display: none;
+  }
+  .solution-card .solution-img{
+    width: 100%;
+  }
+  .solution{
+    padding: 15px;
   }
 }
 
@@ -375,6 +752,19 @@ header ul li a{
   .services h1{
     text-align: center;
   }
+  .connect{
+    position: static;
+  }
+  .connect-us{
+    width: 100%;
+    height: 100%;
+  }
+  .connect-img img{
+    width: 100%;
+  }
+  .connect-img{
+    position: static;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -389,6 +779,20 @@ header ul li a{
   .our-services{
     gap: 25px;
   }
+  .project-title,.project-p{
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+  }
+  .project-cards{
+    padding: 0;
+  }
+  .project-card{
+    width: 100%;
+  }
+  .project-imgs{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1163px) {
@@ -400,5 +804,41 @@ header ul li a{
   }
   .main-img{
     position: static;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .partners{
+    padding: 15px;
+  }
+  .partner-title ,.partners p{
+    padding: 0;
+    text-align: center;
+  }
+  .our-partner{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+}
+
+
+@media screen and (max-width: 440px) {
+  .brand-story{
+    padding: 15px;
+  }
+  .brand-img img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 787px) {
+  .connect{
+    padding: 25px;
+  }
+  .connect-us{
+    justify-content: center;
+    padding: 10px;
   }
 }
